@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Template web app for deployment on glitch.com",
   "scripts": {
-    "start": "python3 -m pip install . && python3 -m glitch-web-app"
+    "start": "python3 -m pip install -qqq . && python3 -m glitch_web_app"
   },
   "dependencies": {},
   "engines": {
