@@ -5,15 +5,28 @@ This repository contains a template Python3 (FastAPI or Flask) web app that can 
 ## Prerequisites
 
 - `gh` CLI
-- d
+- An existing Glitch project
+- Hopes and dreams
 
 ## Deploying
 
 1. Create `.env` file
 2. `gh secret set -f .env`
 
+## References
+
+- [Templating with Jina2 in FastAPI](https://fastapi.tiangolo.com/advanced/templates/)
+
+## Author
+
 Made By [@ethho](https://github.com/ethho)
-----------------------
+
+## License
+
+MIT
+
+
+<!-- ----------------------
 
 Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
 
@@ -39,4 +52,4 @@ Made by [Fog Creek](https://fogcreek.com/)
 -------------------
 
 \ ゜o゜)ノ
-
+ -->

@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "glitch-web-app"
+version = "0.1.0"
+description = "Template web app for deployment on glitch.com"
+authors = ["Ethan Ho <53266718+ethho@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
