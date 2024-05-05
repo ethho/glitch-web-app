@@ -1,13 +1,9 @@
 {
-  "//1": "describes your app and its dependencies",
-  "//2": "https://docs.npmjs.com/files/package.json",
-  "//3": "updating this file will download and update your packages",
-
-  "name": "my-glitch-app",
-  "version": "0.0.1",
-  "description": "What am I about?",
+  "name": "glitch-web-app",
+  "version": "0.1.0",
+  "description": "Template web app for deployment on glitch.com",
   "scripts": {
-    "start": "pip3 install -U -r .requirements.txt -t .data/site-packages && env PYTHONPATH=$PWD/.data/site-packages python3 server.py"
+    "start": "python3 -m pip install . && python3 -m glitch-web-app"
   },
   "dependencies": {},
   "engines": {
@@ -18,8 +14,6 @@
   },
   "license": "MIT",
   "keywords": [
-    "node",
-    "glitch",
-    "express"
+    "glitch"
   ]
 }
