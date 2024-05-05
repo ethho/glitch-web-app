@@ -1,19 +1,18 @@
-🐍🐍🐍 Welcome to the Glitch Python
-==================================
+# Glitch Web App Template
 
-This is a port of the default Glitch Node app to Python3.. on Glitch!!!
+This repository contains a template Python3 (FastAPI or Flask) web app that can be deployed to [Glitch](http://glitch.com).
 
-Changes
--------
-- A requirements file at `.requirements.txt`
-- pip install requirements in `package.json` & start python server in the start script
-- custom `watch.json` for Python/Flask
-- `views/index.html` ➡️ `templates/index.html` & convert it to jinja2 for static assets too
-- `public/` ➡️ `static/`
-- ported `server.js` to `server.py`
-- update `README.md`
+## Prerequisites
 
-Made By [@dschep](https://glitch.com/@dschep)
+- `gh` CLI
+- d
+
+## Deploying
+
+1. Create `.env` file
+2. `gh secret set -f .env`
+
+Made By [@ethho](https://github.com/ethho)
 ----------------------
 
 Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
