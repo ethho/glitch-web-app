@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "description": "Template web app for deployment on glitch.com",
   "scripts": {
-    "start": "python3 -m pip install -qqq . && python3 -m glitch_web_app"
+    "start_flask": "python3 -m pip install -qqq . && python3 -m glitch_web_app",
+    "start_fastapi": "python3 -m pip install -qqq . && fastapi dev src/glitch_web_app/fastapi_server.py --host '0.0.0.0' --port '8000' --no-reload",
+    "start": "python3 -m pip install -qqq . && fastapi dev src/glitch_web_app/fastapi_server.py --host '0.0.0.0' --port '8000' --no-reload"
   },
   "dependencies": {},
   "engines": {

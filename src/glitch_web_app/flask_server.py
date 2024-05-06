@@ -4,10 +4,6 @@ from flask import Flask, jsonify, render_template, request
 template_folder = str(Path('templates').absolute())
 app = Flask(__name__, template_folder=template_folder)
 
-
-# I've started you off with Flask,
-# but feel free to use whatever libs or frameworks you'd like through `.requirements.txt`.
-
 # unlike express, static files are automatic: http://flask.pocoo.org/docs/0.12/quickstart/#static-files
 
 # http://flask.pocoo.org/docs/0.12/quickstart/#routing
