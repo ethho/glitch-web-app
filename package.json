@@ -5,6 +5,7 @@
   "scripts": {
     "start_flask": "python3 -m pip install -qqq pip -U . && python3 -m gunicorn flask_server:app",
     "start_fastapi": "python3 -m pip install -qqq pip -U . && python3 -m gunicorn -k uvicorn.workers.UvicornWorker fastapi_server:app",
+    "start_dash": "python3 -m pip install -qqq pip -U . && python3 -m gunicorn dash_server:server",
     "start": "python3 -m pip install -qqq pip -U . && python3 -m gunicorn -k uvicorn.workers.UvicornWorker fastapi_server:app"
   },
   "dependencies": {},
