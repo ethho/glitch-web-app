@@ -1,8 +1,13 @@
 import os
 from pathlib import Path
 from flask import Flask, jsonify, render_template, request
+
+# We can import from our custom package here
+import glitch_web_app
+
 template_folder = str(Path('templates').absolute())
 app = Flask(__name__, template_folder=template_folder)
+
 
 # unlike express, static files are automatic: http://flask.pocoo.org/docs/0.12/quickstart/#static-files
 
