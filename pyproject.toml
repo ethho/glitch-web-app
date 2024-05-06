@@ -15,9 +15,9 @@ dependencies = [
 
 [tool.setuptools]
 include-package-data = true
-# packages = [
-# 	'glitch_web_app'
-# ]
+packages = [
+	'glitch_web_app'
+]
 
 [build-system]
 requires = ["setuptools>=61.0"]
