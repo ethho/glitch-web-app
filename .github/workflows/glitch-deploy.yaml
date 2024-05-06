@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: main
+          ref: python
       - name: Push to Glitch Project
         uses: wei/git-sync@v3
         with:
