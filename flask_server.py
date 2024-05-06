@@ -15,7 +15,6 @@ app = Flask(__name__, template_folder=template_folder)
 # http://flask.pocoo.org/docs/0.12/quickstart/#rendering-templates
 @app.route('/')
 def hello():
-    breakpoint()
     return render_template('index.html')
 
 # Simple in-memory store

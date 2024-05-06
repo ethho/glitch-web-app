@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Template web app for deployment on glitch.com",
   "scripts": {
-    "start_flask": "python3 -m pip install -qqq pip -U . && python3 -m gunicorn -k uvicorn.workers.UvicornWorker flask_server:app",
+    "start_flask": "python3 -m pip install -qqq pip -U . && python3 -m gunicorn flask_server:app",
     "start_fastapi": "python3 -m pip install -qqq pip -U . && python3 -m gunicorn -k uvicorn.workers.UvicornWorker fastapi_server:app",
     "start": "python3 -m pip install -qqq pip -U . && python3 -m gunicorn -k uvicorn.workers.UvicornWorker fastapi_server:app"
   },
