@@ -3,7 +3,7 @@ name: Deploy to Glitch
 on:
   push:
     branches:
-      - main
+      - python
 
 jobs:
   sync:
@@ -13,6 +13,6 @@ jobs:
         uses: wei/git-sync@v3
         with:
           source_repo: https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-          source_branch: main
+          source_branch: python
           destination_repo: ${{ secrets.GLITCH_GIT_URL }}
           destination_branch: main
