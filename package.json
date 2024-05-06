@@ -4,8 +4,8 @@
   "description": "Template web app for deployment on glitch.com",
   "scripts": {
     "start_flask": "python3 -m pip install -qqq pip -U . && python3 -m glitch_web_app",
-    "start_fastapi": "python3 -m pip install -qqq pip -U . && gunicorn glitch_web_app.fastapi_server:app",
-    "start": "python3 -m pip install -qqq pip -U . && gunicorn glitch_web_app.fastapi_server:app"
+    "start_fastapi": "python3 -m pip install -qqq pip -U . && python3 -m gunicorn glitch_web_app.fastapi_server:app",
+    "start": "python3 -m pip install -qqq pip -U . && python3 -m gunicorn glitch_web_app.fastapi_server:app"
   },
   "dependencies": {},
   "engines": {
